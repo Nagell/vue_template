@@ -15,6 +15,8 @@
     - [NODE\_ENV \& VITE MODE](#node_env--vite-mode)
     - [VITE\_APP\_\*](#vite_app_)
 
+<br>
+
 ## Description
 
 This is a Vue template for quick start of a new project.  
@@ -48,6 +50,8 @@ as well as a basic structure:
 - `store` - for Pinia store
 - `types` - for typescript types used in the project
 
+<br>
+
 ## Project setup / Installation
 
 Assuming that you have already installed `Node.js`,  
@@ -61,8 +65,12 @@ npm install -g yarn
 yarn run init
 ```
 
-🟦**TIP**  
-Remember to scan the project for `app_name` and replace them with your own values.
+> [!NOTE]
+> Remember to scan the project for `app_name` and replace them with your own values.
+
+<br>
+
+## Commands
 
 ### Develop
 
@@ -132,6 +140,8 @@ Good explanation of the struggle with npm caveats is provided by [this article](
 
 </details>
 
+<br>
+
 ## Development
 
 All commands, tips and tricks and documentation about used tools and libraries are in the  
@@ -156,14 +166,11 @@ The builds are saved in the `/dist` directory.
  In an CI pipeline you require another command to check for affected packages.  
 [Read more](https://nx.dev/ci/features/affected#specify-which-shas-to-use-to-calculate-affected-code)
 
+<br>
+
 ## Environment variables
 
 ### NODE_ENV & VITE MODE
-
-🟥**IMPORTANT**  
-Do not add and commit `.env` file to projects. There is a known problem with the Nx commands  
-causing usage of the `.env` file for every build mode, no matter what mode is set in the command.  
-If you need some local environment variables, use `.env.development.local` file.
 
 The NODE_ENV=production is not supported in the .env file in Vite  
 Only NODE_ENV=development is supported to create a development build of the project  
@@ -174,6 +181,8 @@ Respectively it uses
 - `.env` or `.env.development` file for development mode (serve command)
 - `.env.production` file for production mode (build command)
 - `.env.[mode]` file for custom mode (build command with --mode [mode] argument)
+
+If you need some local environment variables, use `.env.development.local` file.
 
 More about modes [here](https://vitejs.dev/guide/env-and-mode.html#modes)  
 
