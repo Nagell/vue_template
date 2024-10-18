@@ -14,6 +14,8 @@
     - [Typescript](#typescript)
       - [Setting up the typescript configuration](#setting-up-the-typescript-configuration)
 
+<br>
+
 ## Commits
 
 Thanks to the `commitlint` and `husky` packages, the commits are checked for the correct format.  
@@ -28,16 +30,22 @@ git commit -m "<type>(<scope>): <subject>"
 
 Read more about the [Conventional Commits](https://github.com/conventional-changelog/commitlint)
 
+<br>
+
 ## Environment variables
 
 Before you add any environment variables or files to the project, please read section **Environment variables**  
 in [README.md](./../README.md#environment-variables) file in the root directory.
+
+<br>
 
 ## Update dependencies
 
 ```bash
 yarn upgrade-interactive --latest
 ```
+
+<br>
 
 ## Linting, formatting and types
 
@@ -129,6 +137,8 @@ To use the ESLint extension in Rider, you need to open settings and search for E
 
 </details>
 
+<br>
+
 ### Tailwind
 
 To work with a projects utilizing Tailwind CSS, you should **(strongly recommended)** install the Tailwind CSS IntelliSense extension.  
@@ -199,6 +209,8 @@ and ad this configuration to the `experimental > classRegex` field.
 ```
 
 </details>
+
+<br>
 
 ### Typescript
 
