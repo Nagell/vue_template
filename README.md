@@ -1,4 +1,4 @@
-# Vue Based Monorepo Template
+# Vue Template
 
 - [Vue Based Monorepo Template](#vue-based-monorepo-template)
   - [Description](#description)
@@ -147,6 +147,8 @@ Good explanation of the struggle with npm caveats is provided by [this article](
 All commands, tips and tricks and documentation about used tools and libraries are in the  
 [DEVELOPMENT.md](./docs/DEVELOPMENT.md) file.
 
+<br>
+
 ## Build
 
 Nx will only run build for the affected projects and commands.  
@@ -193,6 +195,8 @@ if (import.meta.env.MODE !== 'production') {
   console.log('Not the production mode');
 }
 ```
+
+<br>
 
 ### VITE_APP_*
 
