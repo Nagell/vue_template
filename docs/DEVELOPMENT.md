@@ -66,9 +66,9 @@ Add the following settings to the `settings.json` file in Visual Studio Code for
 You can open the `settings.json` by going to `File -> Preferences -> Settings`  
 and pressing on the `{}` icon in the top right corner.
 
-🟦**TIP**  
-If you use the default `.code-workspace` file from the root directory, you don't need to add these settings.  
-They are already there.
+🟦 **Note**  
+> If you use the default `.code-workspace` file from the root directory, you don't need to add these settings.  
+> They are already there.
 
 ```json
 {
@@ -114,7 +114,6 @@ They are already there.
 
 <details><summary>Rider settings</summary>
 
-🟥**IMPORTANT**  
 To use the ESLint extension in Rider, you need to open settings and search for ESLint and set the following settings:
 
 - [x] Automatic ESLint configuration  
@@ -123,10 +122,10 @@ To use the ESLint extension in Rider, you need to open settings and search for E
 
 ![Rider ESLint settings](./assets/rider-eslint-settings.png)
 
-🟦**TIP**  
-If you are on a Mac you can open two windows of Rider in the same application.  
-Just open the second Project in the second window and choose the `Window -> Merge All Project Windows` option.  
-More on this subject [here](https://www.jetbrains.com/help/rider/Open_projects_and_solutions.html#switch_solutions)
+🟦 **Note**  
+> If you are on a Mac you can open two windows of Rider in the same application.  
+> Just open the second Project in the second window and choose the `Window -> Merge All Project Windows` option.  
+> More on this subject [here](https://www.jetbrains.com/help/rider/Open_projects_and_solutions.html#switch_solutions)
 
 </details>
 
@@ -148,9 +147,9 @@ Add the following settings to the `settings.json` file in Visual Studio Code for
 You can open the `settings.json` by going to `File -> Preferences -> Settings`  
 and pressing on the `{}` icon in the top right corner.
 
-🟦**TIP**  
-If you use the default `.code-workspace` file from the root directory, you don't need to add these settings.  
-They are already there.
+🟦 **Note**  
+> If you use the default `.code-workspace` file from the root directory, you don't need to add these settings.  
+> They are already there.
 
 ```jsonc
 {
