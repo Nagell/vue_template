@@ -151,11 +151,6 @@ All commands, tips and tricks and documentation about used tools and libraries a
 
 ## Build
 
-Nx will only run build for the affected projects and commands.  
-This will only work if you have a Git repository initialized and the changes are committed.  
-Default check if a package/project is affected is made by comparing the head of the current branch  
-against the main branch.
-
 ```bash
 yarn run build:prod
 # or
@@ -163,10 +158,6 @@ yarn run build:staging
 ```
 
 The builds are saved in the `/dist` directory.
-
-**IMPORTANT**  
- In an CI pipeline you require another command to check for affected packages.  
-[Read more](https://nx.dev/ci/features/affected#specify-which-shas-to-use-to-calculate-affected-code)
 
 <br>
 
