@@ -129,17 +129,6 @@ yarn run ci
 yarn run clean
 ```
 
-<details><summary>Why yarn?</summary>
-
-Because we are using monorepo structure, we have to use so called `workspaces` as well.  
-Yarn `workspaces` implementation is far superior to the npm one, by providing more features and better performance.  
-
-For example package hoisting, which allows us installing dependencies in the root `node_modules`  
-and save time and dependency management overhead are working much better in Yarn.  
-Good explanation of the struggle with npm caveats is provided by [this article](https://medium.com/@d.ts/how-to-use-npm-workspace-d155076da956).
-
-</details>
-
 <br>
 
 ## Development
