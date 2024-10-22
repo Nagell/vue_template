@@ -1,8 +1,9 @@
 # Vue Template
 
-- [Vue Based Monorepo Template](#vue-based-monorepo-template)
+- [Vue Template](#vue-template)
   - [Description](#description)
   - [Project setup / Installation](#project-setup--installation)
+  - [Commands](#commands)
     - [Develop](#develop)
     - [Build project](#build-project)
     - [Run build locally](#run-build-locally)
@@ -49,6 +50,9 @@ as well as a basic structure:
 - `services` - for API services
 - `store` - for Pinia store
 - `types` - for typescript types used in the project
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/Nagell/vue_template)  
+Remember to install suggested extensions in StackBlitz.
 
 <br>
 
