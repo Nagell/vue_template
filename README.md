@@ -19,7 +19,8 @@
 <br>
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/Nagell/vue_template)  
-Remember to install suggested extensions in StackBlitz.
+Remember to install suggested extensions in StackBlitz, after the installation of the project.  
+If this approach doesn't work for you, you can always just clone the project and run it locally.
 
 ## Description
 
