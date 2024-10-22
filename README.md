@@ -18,6 +18,9 @@
 
 <br>
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/Nagell/vue_template)  
+Remember to install suggested extensions in StackBlitz.
+
 ## Description
 
 This is a Vue template for quick start of a new project.  
@@ -50,9 +53,6 @@ as well as a basic structure:
 - `services` - for API services
 - `store` - for Pinia store
 - `types` - for typescript types used in the project
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/Nagell/vue_template)  
-Remember to install suggested extensions in StackBlitz.
 
 <br>
 
