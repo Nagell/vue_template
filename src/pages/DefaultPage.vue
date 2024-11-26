@@ -25,7 +25,6 @@
     import { storeToRefs } from 'pinia'
 
     import { ButtonItem } from '@/components/common'
-
     import PostList from '@/components/posts/PostList.vue'
     import DefaultLayout from '@/layouts/DefaultLayout.vue'
     import { usePostStore } from '@/stores/post.store'
