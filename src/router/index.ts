@@ -16,7 +16,7 @@ const routes: RouteRecordRaw[] = [
     },
     // 404 catch
     {
-        path: '/:catchAll(.*)*',
+        path: '/:catchAll(.*)',
         redirect: { name: 'PageNotFound' },
     },
 ]
