@@ -18,6 +18,11 @@ const meta: Meta<Props & { text: string }> = {
             control: 'boolean',
             description: 'Disable the button',
         },
+        variant: {
+            control: 'select',
+            options: [ 'primary', 'secondary' ],
+            description: 'Button size',
+        },
         size: {
             control: 'select',
             options: [ 'sm', 'md', 'lg' ],
